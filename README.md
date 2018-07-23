@@ -1,4 +1,7 @@
-# Udacity's FEND Cat Clicker Project
+*Front End Nanodegree @Udacity*  
+*Part 4: Front-End Applications*
+
+# Cat Clicker Project
 
 In the Frontend Web Development Nanodegree Programm at [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) part 4 of the syllabus is all about building front-end applications on a professional level so it introduces the student to Ajax, Angular, Ember and Service Workers. To get familiar with writing well structured code and adapting to ever changing expactions this course unit starts of with the requirement to build an simple cat clicker. Throughout the course the expactions in regard to the cat clicker expand.
 
