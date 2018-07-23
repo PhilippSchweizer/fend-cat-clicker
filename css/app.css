@@ -1,0 +1,23 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(4, 200px);
+	grid-template-rows: auto;
+	grid-template-areas: 
+		"header header header header"
+		"article article article article"
+		"footer footer footer footer";
+}
+
+header {
+	grid-column: 1 / span 4;
+	grid-area: header;
+}
+
+article {
+	display: flex;
+	flex-flow: flex-start;
+	
+}
