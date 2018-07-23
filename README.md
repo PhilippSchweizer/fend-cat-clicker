@@ -24,3 +24,14 @@ I am really thankfull for this project and the learning opportunity to start fro
 > "The application should display two cats. Each cat includes the cat's name, a picture of the cat [and] text showing the number of clicks. The number of clicks should increment when each cat picture is clicked."
 
 To me it is not entirely clear wether the two click counters should be independent from each other, but I assume it for now.
+
+## Stage #03
+
+**Requirements**
+
+- a list of at least five cats on the side
+- a cat is displayed in the cat area, when choosen from that list
+- find a way to build a list of cats
+- add selection functionality to the list
+- display the correct cat when the list items are clicked
+- keep each cat's number separate and accurate
