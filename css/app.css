@@ -4,20 +4,52 @@ body {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: repeat(4, 200px);
-	grid-template-rows: auto;
+	grid-template-rows: 3;
 	grid-template-areas: 
 		"header header header header"
-		"article article article article"
+		"article article article sidebar"
 		"footer footer footer footer";
 }
 
 header {
-	grid-column: 1 / span 4;
 	grid-area: header;
 }
 
 article {
+	grid-area: article;
 	display: flex;
-	flex-flow: flex-start;
-	
+	flex-wrap: wrap;	
+}
+
+article h1 {
+	flex: 0 0 100%; /* flex-grow: 0, flex-stretch: 0, flex-basis: 100% */
+}
+
+article img {
+	width: 600px;
+	height: 600px;
+}
+
+.nav {
+	grid-area: sidebar;
+	padding-left: 1em;
+}
+
+.nav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.nav li {
+	cursor: pointer;
+	line-height: 1.5em;
+}
+
+.nav li:hover{
+	background: gold;
+}
+
+footer {
+	grid-area: footer;
+	margin-top: 1em;
 }
